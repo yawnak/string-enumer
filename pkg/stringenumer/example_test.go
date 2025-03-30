@@ -5,7 +5,7 @@ import (
 	"log"
 	"os"
 
-	"github.com/lindell/string-enumer/pkg/stringenumer"
+	"github.com/yawnak/string-enumer/pkg/stringenumer"
 )
 
 func Example() {

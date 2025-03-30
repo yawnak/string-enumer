@@ -1,4 +1,4 @@
-module github.com/lindell/string-enumer
+module github.com/yawnak/string-enumer
 
 go 1.24
 

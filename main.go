@@ -8,8 +8,8 @@ import (
 	"os"
 	"strings"
 
-	"github.com/lindell/string-enumer/pkg/stringenumer"
 	"github.com/spf13/pflag"
+	"github.com/yawnak/string-enumer/pkg/stringenumer"
 )
 
 var (
@@ -24,7 +24,7 @@ func Usage() {
 	fmt.Fprintf(os.Stderr, "\tstring-enumer [flags] --type T --type T2 [directory]\n")
 	fmt.Fprintf(os.Stderr, "\tstring-enumer [flags] --type T --type T2 files... # Must be a single package\n")
 	fmt.Fprintf(os.Stderr, "For more information, see:\n")
-	fmt.Fprintf(os.Stderr, "\thttps://github.com/lindell/string-enumer\n")
+	fmt.Fprintf(os.Stderr, "\thttps://github.com/yawnak/string-enumer\n")
 	fmt.Fprintf(os.Stderr, "Flags:\n")
 	pflag.PrintDefaults()
 }

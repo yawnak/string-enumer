@@ -3,9 +3,9 @@
 </h1>
 
 <div align="center">
-	<a href="https://github.com/lindell/string-enumer/actions?query=branch%3Amaster+workflow%3AGo"><img alt="Go build status" src="https://github.com/lindell/string-enumer/workflows/Go/badge.svg?branch=master" /></a>
-	<a href="https://godoc.org/github.com/lindell/string-enumer/pkg/stringenumer"><img alt="GoDoc" src="https://godoc.org/github.com/lindell/string-enumer/pkg/stringenumer?status.svg" /></a>
-	<a href="https://goreportcard.com/report/github.com/lindell/string-enumer"><img alt="Go Report Card" src="https://goreportcard.com/badge/github.com/lindell/string-enumer" /></a>
+	<a href="https://github.com/yawnak/string-enumer/actions?query=branch%3Amaster+workflow%3AGo"><img alt="Go build status" src="https://github.com/yawnak/string-enumer/workflows/Go/badge.svg?branch=master" /></a>
+	<a href="https://godoc.org/github.com/yawnak/string-enumer/pkg/stringenumer"><img alt="GoDoc" src="https://godoc.org/github.com/yawnak/string-enumer/pkg/stringenumer?status.svg" /></a>
+	<a href="https://goreportcard.com/report/github.com/yawnak/string-enumer"><img alt="Go Report Card" src="https://goreportcard.com/badge/github.com/yawnak/string-enumer" /></a>
 </div>
 <br>
 
@@ -21,7 +21,7 @@ The tool is primarily intended to be used with [go:generate](https://blog.golang
 ```go
 //go:generate string-enumer --text -t Country -o ./generated.go .
 // or
-//go:generate go run github.com/lindell/string-enumer --text -t Country -o ./generated.go .
+//go:generate go run github.com/yawnak/string-enumer --text -t Country -o ./generated.go .
 type Country string
 
 const (
@@ -61,7 +61,7 @@ Usage of string-enumer:
 	string-enumer [flags] --type T --type T2 [directory]
 	string-enumer [flags] --type T --type T2 files... # Must be a single package
 For more information, see:
-	https://github.com/lindell/string-enumer
+	https://github.com/yawnak/string-enumer
 Flags:
   -o, --output string   output file name; default is stdout
   -T, --text            if set, text unmarshaling methods will be generated. Default: false
